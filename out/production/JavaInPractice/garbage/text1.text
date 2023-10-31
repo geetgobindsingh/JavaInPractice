@@ -1,0 +1,2036 @@
+{
+  "targets": [
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Paradip'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "ParadipDispatcher"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "ParadipDispatcher"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Paradip'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "ParadipDispatcher2"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "ParadipDispatcher2"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Paradip'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "ParadipDispatcher3"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "ParadipDispatcher3"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Paradip'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "ParadipDispatcher4"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "ParadipDispatcher4"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Paradip'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "ParadipDispatcher5"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "ParadipDispatcher5"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Paradip'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "ParadipDispatcher6"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "ParadipDispatcher6"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Paradip'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "ParadipDispatcher7"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "ParadipDispatcher7"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Visakhapatnam'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "VisakhapatnamDispatcher"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "VisakhapatnamDispatcher"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Visakhapatnam'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "VisakhapatnamDispatcher2"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "VisakhapatnamDispatcher2"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Visakhapatnam'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "VisakhapatnamDispatcher3"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "VisakhapatnamDispatcher3"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Visakhapatnam'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "VisakhapatnamDispatcher4"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "VisakhapatnamDispatcher4"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Visakhapatnam'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "VisakhapatnamDispatcher5"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "VisakhapatnamDispatcher5"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Ennore'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "EnnoreDispatcher"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "EnnoreDispatcher"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Gangavaram'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "GangavaramDispatcher"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "GangavaramDispatcher"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Gangavaram'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "GangavaramDispatcher2"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "GangavaramDispatcher2"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Gangavaram'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "GangavaramDispatcher3"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "GangavaramDispatcher3"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Gangavaram'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "GangavaramDispatcher4"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "GangavaramDispatcher4"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Gangavaram'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "GangavaramDispatcher5"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "GangavaramDispatcher5"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Tuticorin'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "TuticorinDispatcher"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "TuticorinDispatcher"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Tuticorin'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "TuticorinDispatcher2"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "TuticorinDispatcher2"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Krishnapatnam'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "KrishnapatnamDispatcher"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "KrishnapatnamDispatcher"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti > 0.1 && this.po == 'AEL - Krishnapatnam'",
+      "targetStatus": "Under Dispatch",
+      "targetRoles": [
+        "KrishnapatnamDispatcher2"
+      ],
+      "conditionalButtons": [
+        {
+          "type": "Button",
+          "actionText": "Add Dispatch",
+          "value": "approve",
+          "actionType": "MODIFY_STATUS",
+          "roles": [
+            "KrishnapatnamDispatcher2"
+          ],
+          "editFullForm": false,
+          "color": "#ff5722",
+          "remark": true,
+          "fields": {
+            "dtdo": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "po": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "c.cc": {
+              "readOnly": true,
+              "visibility": "GONE"
+            },
+            "c.cu": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "de": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "t": {
+              "readOnly": true,
+              "visibility": "INVISIBLE"
+            },
+            "ti": {
+              "readOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d": {
+              "mandatory": true,
+              "appendOnly": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ac": {
+              "visibility": "VISIBLE",
+              "mandatory": true
+            },
+            "d.to": {
+              "visibility": "VISIBLE"
+            },
+            "d.q": {
+              "visibility": "VISIBLE"
+            },
+            "d.del": {
+              "visibility": "VISIBLE"
+            },
+            "d.g": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ta": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.tr": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.ra": {
+              "mandatory": true,
+              "visibility": "VISIBLE"
+            },
+            "d.dr": {
+              "visibility": "VISIBLE"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "this.ti <= 0.1",
+      "targetStatus": "Dispatch Complete",
+      "conditionalButtons": []
+    }
+  ],
+  "commentMessage": "Successfully Added Dispatch info",
+  "sourceAction": "approve",
+  "sourceStatus": "Under Dispatch"
+}
