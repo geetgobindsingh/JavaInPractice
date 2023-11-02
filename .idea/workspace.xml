@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed92a670-42a5-4248-a77a-85433bf57376" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/daa/slidingwindow/MaximumSumSubarrayOfWindowSIzeK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg/amazonprep/dp/MatrixChainMultiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg/amazonprep/slidingwindow/CountOccurencesOfAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg/amazonprep/slidingwindow/FirstNegativeNumberInEveryWindowOfSizeK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gfg/amazonprep/slidingwindow/SlidingWindowMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/LongestRepeatingCharacterReplacement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/MaximumSumOfDistinctSubarraysWithLengthK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/SubarraySumEqualsK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinimumCostToCutAStick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/CountNodesEqualToAverageOfSubtree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Rough.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInPractice/leetcode/hard/MinimumWindowSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInPractice/leetcode/hard/MinimumWindowSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/hard/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/hard/MinimumWindowSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaInPractice/gfg/amazonprep/dp/MatrixChainMultiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInPractice/gfg/amazonprep/dp/MatrixChainMultiplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,9 +226,9 @@
       <recent name="gfg.amazonprep.bst" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MatrixChainMultiplication">
-    <configuration name="LongestSubstringWithoutRepeatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.medium.LongestSubstringWithoutRepeatingCharacters" />
+  <component name="RunManager" selected="Application.Problem2">
+    <configuration name="CountNodesEqualToAverageOfSubtree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.medium.CountNodesEqualToAverageOfSubtree" />
       <module name="JavaInPractice" />
       <extension name="coverage">
         <pattern>
@@ -259,8 +253,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MinimumWindowSubstring" />
+    <configuration name="MinimumCostToCutAStick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MinimumCostToCutAStick" />
       <module name="JavaInPractice" />
       <extension name="coverage">
         <pattern>
@@ -272,25 +266,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SlidingWindowMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg.amazonprep.slidingwindow.SlidingWindowMaximum" />
+    <configuration name="Problem2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem2" />
       <module name="JavaInPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gfg.amazonprep.slidingwindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubarraySumEqualsK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.medium.SubarraySumEqualsK" />
+    <configuration name="Rough" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.Rough" />
       <module name="JavaInPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.medium.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,19 +287,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Problem2" />
+      <item itemvalue="Application.Rough" />
+      <item itemvalue="Application.CountNodesEqualToAverageOfSubtree" />
       <item itemvalue="Application.MatrixChainMultiplication" />
-      <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
-      <item itemvalue="Application.MinimumWindowSubstring" />
-      <item itemvalue="Application.SlidingWindowMaximum" />
-      <item itemvalue="Application.SubarraySumEqualsK" />
+      <item itemvalue="Application.MinimumCostToCutAStick" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Problem2" />
+        <item itemvalue="Application.Rough" />
+        <item itemvalue="Application.CountNodesEqualToAverageOfSubtree" />
+        <item itemvalue="Application.MinimumCostToCutAStick" />
         <item itemvalue="Application.MatrixChainMultiplication" />
-        <item itemvalue="Application.MinimumWindowSubstring" />
-        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
-        <item itemvalue="Application.SubarraySumEqualsK" />
-        <item itemvalue="Application.SlidingWindowMaximum" />
       </list>
     </recent_temporary>
   </component>
