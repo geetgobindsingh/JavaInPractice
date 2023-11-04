@@ -27,9 +27,10 @@ public class Problem1 {
         System.out.println(obj.findMaxLengthSubStringUsingWindow("abcdabc"));
         System.out.println(obj.findMaxLengthSubStringUsingWindow("abcabcabcabcabc"));
         System.out.println(obj.findMaxLengthSubStringUsingWindow("abcdabxyz"));
+        System.out.println(obj.findMaxLengthSubStringUsingWindow("abba"));
     }
 
-    private int findMaxLengthSubStringUsingWindow(String s) { //// O(n)
+    private int findMaxLengthSubStringUsingWindow(String s) { // O(n)
         int n = s.length();
         int max = 0;
         HashMap<Character, Integer> map = new HashMap<>();
@@ -37,9 +38,11 @@ public class Problem1 {
             char c = s.charAt(right);
             if (map.containsKey(c)) { // is already present
                 int prevIndex = map.get(c);
-                left = prevIndex + 1;
+                if (prevIndex >= left) {
+                    left = prevIndex + 1;
+                }
             }
-            map.put(c, right); // update new index of charcter
+            map.put(c, right); // update new index of character
             max = Math.max(max, right - left + 1);
         }
         return max;
