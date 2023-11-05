@@ -5,31 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed92a670-42a5-4248-a77a-85433bf57376" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/BinaryTreeMaximumPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/FindMedianFromDataStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MergeKSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SerializeAndDeserializeBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/AllNodesDistanceKInBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/AmountOfTimeForBinaryTreeToBeInfected.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/BaseTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/BuildAnArrayWithStackOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/KthLargestElementInAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/LastMomentBeforeAllAntsFallOutOfAPlank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/LongestSubarrayOf1sAfterDeletingOneElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/LowestCommonAncestorOfABinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/PathSumII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/TaskScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/TopKFrequentElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/Rough1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/DiameterOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/FirstBadVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/FloodFill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaximumProfitInJobScheduling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/BestTeamWithNoConflicts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/CloneGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/FindTheWinnerOfAnArrayGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/LargestProductByKIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/MaximumEarningsFromTaxi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/TimeBasedKeyValueStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/_01Matrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInPractice/Problem2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInPractice/leetcode/medium/LongestSubStringWithoutRepeatetion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInPractice/leetcode/medium/LongestSubStringWithoutRepeatetion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInPractice/leetcode/medium/MaxConsecutiveOnesIII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInPractice/leetcode/medium/MaxConsecutiveOnesIII.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInPractice/practice/Rough.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/company/allen/Problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/company/allen/Problem1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/medium/LongestSubStringWithoutRepeatetion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/medium/LongestSubStringWithoutRepeatetion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/medium/MaxConsecutiveOnesIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/medium/MaxConsecutiveOnesIII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaInPractice/leetcode/hard/SerializeAndDeserializeBinaryTree$Codec$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaInPractice/leetcode/hard/SerializeAndDeserializeBinaryTree$Codec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInPractice/leetcode/hard/SerializeAndDeserializeBinaryTree$Codec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaInPractice/leetcode/hard/SerializeAndDeserializeBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInPractice/leetcode/hard/SerializeAndDeserializeBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/easy/MaximumDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/easy/MaximumDepthOfBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,9 +236,9 @@
       <recent name="gfg.amazonprep.bst" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SerializeAndDeserializeBinaryTree">
-    <configuration name="AllNodesDistanceKInBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.medium.AllNodesDistanceKInBinaryTree" />
+  <component name="RunManager" selected="Application.CourseSchedule">
+    <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.medium.CourseSchedule" />
       <module name="JavaInPractice" />
       <extension name="coverage">
         <pattern>
@@ -259,8 +250,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AmountOfTimeForBinaryTreeToBeInfected" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.medium.AmountOfTimeForBinaryTreeToBeInfected" />
+    <configuration name="FindTheWinnerOfAnArrayGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.medium.FindTheWinnerOfAnArrayGame" />
       <module name="JavaInPractice" />
       <extension name="coverage">
         <pattern>
@@ -272,8 +263,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LastMomentBeforeAllAntsFallOutOfAPlank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.medium.LastMomentBeforeAllAntsFallOutOfAPlank" />
+    <configuration name="FloodFill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.FloodFill" />
+      <module name="JavaInPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumEarningsFromTaxi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.medium.MaximumEarningsFromTaxi" />
       <module name="JavaInPractice" />
       <extension name="coverage">
         <pattern>
@@ -285,25 +289,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.medium.PathSumII" />
+    <configuration name="_01Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice._01Matrix" />
       <module name="JavaInPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SerializeAndDeserializeBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.SerializeAndDeserializeBinaryTree" />
-      <module name="JavaInPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,19 +303,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LastMomentBeforeAllAntsFallOutOfAPlank" />
-      <item itemvalue="Application.SerializeAndDeserializeBinaryTree" />
-      <item itemvalue="Application.AllNodesDistanceKInBinaryTree" />
-      <item itemvalue="Application.AmountOfTimeForBinaryTreeToBeInfected" />
-      <item itemvalue="Application.PathSumII" />
+      <item itemvalue="Application.CourseSchedule" />
+      <item itemvalue="Application.FloodFill" />
+      <item itemvalue="Application._01Matrix" />
+      <item itemvalue="Application.FindTheWinnerOfAnArrayGame" />
+      <item itemvalue="Application.MaximumEarningsFromTaxi" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SerializeAndDeserializeBinaryTree" />
-        <item itemvalue="Application.LastMomentBeforeAllAntsFallOutOfAPlank" />
-        <item itemvalue="Application.AmountOfTimeForBinaryTreeToBeInfected" />
-        <item itemvalue="Application.AllNodesDistanceKInBinaryTree" />
-        <item itemvalue="Application.PathSumII" />
+        <item itemvalue="Application.CourseSchedule" />
+        <item itemvalue="Application._01Matrix" />
+        <item itemvalue="Application.FloodFill" />
+        <item itemvalue="Application.FindTheWinnerOfAnArrayGame" />
+        <item itemvalue="Application.MaximumEarningsFromTaxi" />
       </list>
     </recent_temporary>
   </component>
@@ -787,6 +778,21 @@
           <url>file://$PROJECT_DIR$/src/leetcode/medium/AllNodesDistanceKInBinaryTree.java</url>
           <line>22</line>
           <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hard/MaximumProfitInJobScheduling.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/_01Matrix.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/_01Matrix.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="132" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
