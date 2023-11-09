@@ -9,21 +9,7 @@ public class TarjansAlgoStronglyConnectedComponent {
 
     public static void main(String[] args) {
         ArrayList<ArrayList<Integer>> g = new ArrayList<>();
-//        ArrayList<Integer> a = new ArrayList<>();
-//        a.add(2);
-//        a.add(3);
-//        g.add(a);
-//        a = new ArrayList<>();
-//        a.add(0);
-//        g.add(a);
-//        a = new ArrayList<>();
-//        a.add(1);
-//        g.add(a);
-//        a = new ArrayList<>();
-//        a.add(4);
-//        g.add(a);
-//        a = new ArrayList<>();
-//        g.add(a);
+
         ArrayList<Integer> a = new ArrayList<>();
         g.add(a);
 

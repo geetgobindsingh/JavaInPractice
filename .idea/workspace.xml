@@ -5,22 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed92a670-42a5-4248-a77a-85433bf57376" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/DiameterOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/FirstBadVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/FloodFill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaximumProfitInJobScheduling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/BestTeamWithNoConflicts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/CloneGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/FindTheWinnerOfAnArrayGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/LargestProductByKIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/MaximumEarningsFromTaxi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/TimeBasedKeyValueStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/_01Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/PalindromePartitioningII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/AccountsMerge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/CountNumberOfHomogenousSubstrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/ImplementTrie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/LRUCacheQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/LowestCommonAncestorOfABinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/MaximumSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/NextPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/NumberOfIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/PartitionEqualSubsetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/SpiralMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/FriendsPairingProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/RottingOranges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/_012sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInPractice/leetcode/hard/SerializeAndDeserializeBinaryTree$Codec$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInPractice/leetcode/hard/SerializeAndDeserializeBinaryTree$Codec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInPractice/leetcode/hard/SerializeAndDeserializeBinaryTree$Codec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInPractice/leetcode/hard/SerializeAndDeserializeBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInPractice/leetcode/hard/SerializeAndDeserializeBinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/easy/MaximumDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/easy/MaximumDepthOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaInPractice/ds/graph/TarjansAlgoStronglyConnectedComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInPractice/ds/graph/TarjansAlgoStronglyConnectedComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ds/graph/TarjansAlgoStronglyConnectedComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/graph/TarjansAlgoStronglyConnectedComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/CourseSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/CourseSchedule.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,9 +238,9 @@
       <recent name="gfg.amazonprep.bst" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CourseSchedule">
-    <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.medium.CourseSchedule" />
+  <component name="RunManager" selected="Application.PalindromePartitioningII">
+    <configuration name="CountNumberOfHomogenousSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.medium.CountNumberOfHomogenousSubstrings" />
       <module name="JavaInPractice" />
       <extension name="coverage">
         <pattern>
@@ -250,8 +252,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTheWinnerOfAnArrayGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.medium.FindTheWinnerOfAnArrayGame" />
+    <configuration name="FriendsPairingProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.FriendsPairingProblem" />
+      <module name="JavaInPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LRUCacheQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.medium.LRUCacheQ" />
       <module name="JavaInPractice" />
       <extension name="coverage">
         <pattern>
@@ -263,12 +278,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FloodFill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.FloodFill" />
+    <configuration name="PalindromePartitioningII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.PalindromePartitioningII" />
       <module name="JavaInPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.easy.*" />
+          <option name="PATTERN" value="leetcode.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,21 +291,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumEarningsFromTaxi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.medium.MaximumEarningsFromTaxi" />
-      <module name="JavaInPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_01Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice._01Matrix" />
+    <configuration name="_012sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice._012sort" />
       <module name="JavaInPractice" />
       <extension name="coverage">
         <pattern>
@@ -303,19 +305,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CourseSchedule" />
-      <item itemvalue="Application.FloodFill" />
-      <item itemvalue="Application._01Matrix" />
-      <item itemvalue="Application.FindTheWinnerOfAnArrayGame" />
-      <item itemvalue="Application.MaximumEarningsFromTaxi" />
+      <item itemvalue="Application.CountNumberOfHomogenousSubstrings" />
+      <item itemvalue="Application.FriendsPairingProblem" />
+      <item itemvalue="Application.LRUCacheQ" />
+      <item itemvalue="Application.PalindromePartitioningII" />
+      <item itemvalue="Application._012sort" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CourseSchedule" />
-        <item itemvalue="Application._01Matrix" />
-        <item itemvalue="Application.FloodFill" />
-        <item itemvalue="Application.FindTheWinnerOfAnArrayGame" />
-        <item itemvalue="Application.MaximumEarningsFromTaxi" />
+        <item itemvalue="Application.PalindromePartitioningII" />
+        <item itemvalue="Application.FriendsPairingProblem" />
+        <item itemvalue="Application._012sort" />
+        <item itemvalue="Application.CountNumberOfHomogenousSubstrings" />
+        <item itemvalue="Application.LRUCacheQ" />
       </list>
     </recent_temporary>
   </component>
@@ -793,6 +795,21 @@
           <url>file://$PROJECT_DIR$/src/practice/_01Matrix.java</url>
           <line>50</line>
           <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/gfg/amazonprep/disjointset/PairingProblem.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/medium/ImplementTrie.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/medium/LRUCacheQ.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="157" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
